@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+    font-family: 'Source Code Pro', monospace;
+}
+.about .about__heading{
+    background-color: turquoise;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px !important;
+    margin-top: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    position: relative;
+}
+.about .about__heading:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -13px;
+    border-width: 7px;
+    border-color: transparent #349c92 #349c92  transparent;
+    border-style: solid;
+}
+.about .about__heading:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 48px;
+    border-width: 7px;
+    border-color: #349c92 transparent transparent #349c92 ;
+    border-style: solid;
+    
+}
+.profile {
+    max-width: 18em;
+}
+
+.my-details {
+    background-color: rgba(255, 255, 255, 0.747);
+}
+.about a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+.about .MuiButtonBase-root{
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+.about .MuiButtonBase-root p{
+    color: #fff;
+    background-color: #000;
+    font-size: 10px;
+    position: absolute;
+    bottom: -50px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 4px;
+    display: none;
+    transition: transform 200ms ease-in;
+}
+.about .MuiButtonBase-root:hover p{
+    display: inline;
+    transform: all 200ms ;
+}
+.about .MuiButtonBase-root p::before{
+    position: absolute;
+    content: "";
+    border-color: transparent transparent #000 transparent;
+    border-width: 10px;
+    border-style: solid;
+    top: -100%;
+    left: 16%;
+    transform: translate(50%, 50%);
+}
+.about .MuiButtonBase-root:focus{
+    outline: none;
+}
+.about .contact {
+    background-color: antiquewhite;
+    color: brown;
+}
+.about .cv {
+    background-color: rgb(58, 129, 100);
+    color: rgb(192, 188, 188);
+}
+.about .cv:hover{
+    background-color: rgb(192, 188, 188);
+    color: rgb(58, 129, 100);
+}
+.about .github {
+    background-color: black;
+    color: white;
+}
+.about .github:hover {
+    background-color: white;
+    color: black;
+}
+.about .facebook {
+    background-color: #4267B2;
+    color: white;
+}
+.about .facebook:hover {
+    background-color: #2957b3;
+}
+.about .linkdin {
+    background-color: #0077B5 ;
+    color: white;
+}
+.about .linkdin:hover {
+    background-color: #05547e ;
+
+}

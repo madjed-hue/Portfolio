@@ -1,0 +1,13 @@
+.custom-img {
+    height: 100vh;
+    object-fit: cover;
+}
+@media (max-width: 768px){
+    .custom-img {
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+.carousel-indicators{
+    bottom: 50px;
+}
