@@ -19,3 +19,6 @@ hr {
     height: 100%;
     z-index: 1;
 }
+body {
+    scroll-behavior: smooth;
+}

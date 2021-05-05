@@ -1,0 +1,59 @@
+.focus {
+    transition: transform 0.3s;
+}
+
+.focus:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.image-style {
+    width: 3em;
+}
+
+.font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: #231d5af8;
+}
+
+.font-details-b {
+    font-size: 3em;
+    font-weight: 500;
+    color: #ffffff;
+}
+#skills h1{
+    font-family: 'Source Code Pro', monospace;
+    background-color: turquoise;
+    width: 25vw;
+    margin: 2px auto 10px;
+    padding: 0px !important;
+    position: relative;
+}
+#skills h1::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -13px;
+    border-width: 7px;
+    border-color: #349c92 #349c92 transparent transparent;
+    border-style: solid;
+}
+#skills h1::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -14px;
+    border-width: 7px;
+    border-color: #349c92 transparent transparent #349c92 ;
+    border-style: solid;
+}
+#skills .card-title{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+    letter-spacing: 2px;
+}

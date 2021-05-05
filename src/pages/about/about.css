@@ -29,7 +29,7 @@
     content: "";
     position: absolute;
     right: 0px;
-    top: 48px;
+    bottom: -14px;
     border-width: 7px;
     border-color: #349c92 transparent transparent #349c92 ;
     border-style: solid;
@@ -41,6 +41,7 @@
 
 .my-details {
     background-color: rgba(255, 255, 255, 0.747);
+    margin-bottom: 8px;
 }
 .about a{
     text-decoration: none;
