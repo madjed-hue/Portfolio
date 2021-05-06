@@ -10,6 +10,7 @@ import Container from "react-bootstrap/Container";
 import BackgroundImg from "./assets/img/background/background.webp"
 import Skills from './pages/skill/skillsSection';
 import Experience from './pages/experience/Experience';
+import TimeLine from './components/timeline/timeline';
 
 function App() {
   return (
@@ -48,6 +49,12 @@ function App() {
           </Fade>
         </Container>
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
     </div>
   );
 }
