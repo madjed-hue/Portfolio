@@ -4,7 +4,7 @@
 }
 @media (max-width: 768px){
     .custom-img {
-        height: 50vh;
+        height: 80vh;
         object-fit: cover;
     }
 }

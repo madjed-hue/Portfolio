@@ -18,7 +18,7 @@ function About() {
     return (
         <div id="about">
             <div className="about">
-                <h2 className="pt-3 text-center font-details pb-3 about__heading">About Me</h2>
+                <h2 className="pt-3 text-center font-details-b pb-3 about__heading">About Me</h2>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
                         <Col xs={12} md={6} className="about-leftSide">
@@ -44,18 +44,18 @@ function About() {
                                 <Fab size="medium" className="contact">
                                     <a href="#contact"></a>
                                         <ContactMailIcon />
-                                    <p>Contact</p>
+                                    <p className="contact__para">Contact</p>
                                 </Fab>
                                 <Fab size="medium" className="cv">
                                     <a href="https://drive.google.com/file/d/1d1yxlGu2iRwYpYEXsAkp38Z9RqQDqbda/view?usp=sharing" target="_blank"></a>
                                         <AttachmentIcon />
-                                    <p>Resume</p>
+                                    <p className="cv__para">Resume</p>
                                 </Fab>
                                 <Fab size="medium" className="github">
                                     <a href="https://github.com/madjed-hue" target="_blank"></a>
                                         <GitHubIcon />
                                     
-                                    <p>Github</p>
+                                    <p className="git__para">Github</p>
                                 </Fab>
                                 <Fab size="medium" className="facebook">
                                     <a href="https://www.facebook.com/profile.php?id=100015783588265" target="_blank"></a>

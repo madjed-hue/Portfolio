@@ -57,4 +57,11 @@ const MyTitleMessage = styled.h1`
         letter-spacing: 2px;
         }
     }
+    @media (max-width: 768px){
+        .titleMessage .heading .main {
+        font-size: 20px;
+        margin-top: -125px;
+        }
+    }
+}
 `;

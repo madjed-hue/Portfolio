@@ -5,18 +5,23 @@
     font-size: 1.1em;
     font-family: 'Source Code Pro', monospace;
 }
-.about .about__heading{
+.about .font-details-b{
     background-color: turquoise;
     width: 15vw;
     margin-left: auto;
     margin-right: auto;
     padding: 5px 10px !important;
+    color: black;
     margin-top: 15px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
     position: relative;
+    font-size: 35px;
+    box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
+    
 }
-.about .about__heading:before {
+
+.about .font-details-b:before {
     content: "";
     position: absolute;
     left: 0px;
@@ -25,7 +30,7 @@
     border-color: transparent #349c92 #349c92  transparent;
     border-style: solid;
 }
-.about .about__heading:after {
+.about .font-details-b:after {
     content: "";
     position: absolute;
     right: 0px;
@@ -121,4 +126,43 @@
 .about .linkdin:hover {
     background-color: #05547e ;
 
+}
+@media (max-width: 768px){
+    .about .MuiButtonBase-root:hover .contact__para,
+    .about .MuiButtonBase-root:hover .cv__para,
+    .about .MuiButtonBase-root:hover .git__para{
+        color: #fff;
+        background-color: #000;
+        font-size: 10px;
+        position: absolute;
+        top: -40px;
+        bottom: 42px;
+        
+    }
+    .about .MuiButtonBase-root .contact__para::before,
+    .about .MuiButtonBase-root .cv__para::before,
+    .about .MuiButtonBase-root .git__para::before{
+        display:none;
+    }
+    .about .MuiButtonBase-root .contact__para::after,
+    .about .MuiButtonBase-root .cv__para::after,
+    .about .MuiButtonBase-root .git__para::after{
+        position: absolute;
+        content: "";
+        border-color: #000 transparent transparent transparent;
+        border-width: 10px;
+        border-style: solid;
+        bottom: -35%;
+        left: 16%;
+        transform: translate(50%, 50%);
+    }
+    .about .font-details-b{
+        font-size: 25px;
+        width: 30vw;
+        flex-wrap: nowrap;
+    }
+    .about .MuiButtonBase-root{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }

@@ -1,0 +1,60 @@
+.contact-jumbotron {
+    background-image: url("../../assets/img/background/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#youtube-btn {
+    border-color: #f83f37;
+    color: #f83f37;
+}
+#youtube-btn:hover {
+    background-color: #f83f37;
+    color: #ffffff;
+}
+#contact {
+    font-family: 'Source Code Pro', monospace;
+}
+#contact .font-details-b{
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    background-color: turquoise;
+    width: 25vw;
+    margin: 2px auto 15px;
+    padding: 0px !important;
+    position: relative;
+    font-size: 35px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
+
+}
+#contact .font-details-b::after,
+#contact .font-details-b::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: -30px;
+    top: 11px;
+    display: block;
+    width: 50px;
+    height: 0px;
+    border: 20px solid rgb(65 224 208);
+    border-right: 20px solid rgb(49 148 138);
+    border-bottom-color: #42e0d0;
+    border-left-color: transparent;
+    transform: rotate(-5deg);
+}
+#contact .font-details-b::after {
+    left: auto;
+    right: -35px;
+    border-left: 20px solid rgb(17, 153, 146);
+    border-right: 30px solid transparent;
+    transform: rotate(5deg);
+    width: 56px;
+}
+@media (max-width: 768px){
+    #contact .font-details-b{
+        font-size: 28px;
+        width: 38vw;
+    }
+}

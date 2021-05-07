@@ -33,6 +33,7 @@
     margin: 2px auto 10px;
     padding: 0px !important;
     position: relative;
+    font-size: 35px;
 }
 #skills h1::before{
     content: "";
@@ -42,6 +43,7 @@
     border-width: 7px;
     border-color: #349c92 #349c92 transparent transparent;
     border-style: solid;
+    
 }
 #skills h1::after{
     content: "";
@@ -56,4 +58,10 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 32px;
     letter-spacing: 2px;
+}
+@media (max-width: 768px){
+    #skills h1{
+        font-size: 30px;
+        width: 30vw;
+    }
 }

@@ -11,6 +11,8 @@ import BackgroundImg from "./assets/img/background/background.webp"
 import Skills from './pages/skill/skillsSection';
 import Experience from './pages/experience/Experience';
 import TimeLine from './components/timeline/timeline';
+import ContactForm from './pages/contact/contact';
+import FooterPanel from './components/footer/Footer';
 
 function App() {
   return (
@@ -55,6 +57,16 @@ function App() {
           <TimeLine />
         </Slide>
       </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <ContactForm />
+        </Fade>
+      </Container>
+
+      <hr />
+      <FooterPanel />
+
     </div>
   );
 }
